@@ -1,0 +1,14 @@
+
+backbase:
+  api:
+    extensions:
+      classes:
+        com.backbase.integration.legalentity.rest.spec.v2.legalentities.LegalEntitiesPostRequestBody: additional-data
+        com.backbase.integration.legalentity.rest.spec.v2.legalentities.LegalEntitiesPutRequestBody: additional-data
+        com.backbase.integration.legalentity.rest.spec.v2.legalentities.CreateLegalEntitiesPostRequestBody: additional-data
+
+      property-sets:
+        additional-data:
+          properties:
+            - property-name: propName
+              type: string

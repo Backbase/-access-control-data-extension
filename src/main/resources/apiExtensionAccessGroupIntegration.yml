@@ -1,0 +1,12 @@
+
+backbase:
+  api:
+    extensions:
+      classes:
+        com.backbase.integration.accessgroup.rest.spec.v2.accessgroups.serviceagreements.ServiceAgreementPostRequestBody: additional-data
+        com.backbase.integration.accessgroup.rest.spec.v2.accessgroups.serviceagreements.ServiceAgreementPutRequestBody: additional-data
+    property-sets:
+      additional-data:
+        properties:
+          - property-name: propName
+            type: string
